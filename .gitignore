@@ -6,9 +6,8 @@ data/*.parquet
 data/*.pkl
 !data/.gitkeep
 
-# Notebook outputs (can get huge with charts/dataframes)
-notebooks/.ipynb_c
-heckpoints/!notebooks/.gitkeep
+notebooks/.ipynb_checkpoints/
+!notebooks/.gitkeep
 
 # Model artifacts
 models/*.bin

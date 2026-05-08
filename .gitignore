@@ -216,3 +216,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ===== PROJECT-SPECIFIC: Large Data Files =====
+data/*.csv
+data/*.zip
+data/*.json
+data/*.parquet
+!data/.gitkeep
+# =============================================
